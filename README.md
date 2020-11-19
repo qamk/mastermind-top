@@ -1,4 +1,3 @@
-# mastermind-top
 # [Mastermind](https://www.wikiwand.com/en/Mastermind_(board_game))
 This code is for a mastermind game created using the Ruby Programming language as part of The Odin Project. Links and resources I found useful will be listed at the bottom!
 
@@ -27,6 +26,3 @@ There are a number of things I learnt about from searching "how to do x". Other 
   - [Alternative site which is nice to look at](https://www.toptal.com/designers/htmlarrows/)
 - [Formatting Github markdown files \(e.g. this README.md)](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github)
   - Just something worth practising for presentation purposes.
-
-
-You can either be the **code maker** or the **code breaker**.
