@@ -1,7 +1,5 @@
 # frozen-string-literal: true
 
-require 'pry'
-
 # Describes the behaviours mutual to the code_breaker and code_maker modes
 module Mechanics
   def process_guess(best_guess, key_pegs, guess, maker_code)

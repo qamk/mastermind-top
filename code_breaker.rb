@@ -4,8 +4,6 @@ require_relative 'text_feedback.rb'
 require_relative 'pegs.rb'
 require_relative 'mechanics.rb'
 
-require 'pry'
-
 # Class for human code breaker
 class CodeBreaker
   include TextFeedback

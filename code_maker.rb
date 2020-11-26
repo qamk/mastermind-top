@@ -3,7 +3,6 @@
 require_relative 'mechanics.rb'
 require_relative 'pegs.rb'
 require_relative 'text_feedback'
-require 'pry'
 
 # Class for the code-maker mode
 class CodeMaker
