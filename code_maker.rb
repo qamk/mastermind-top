@@ -85,8 +85,9 @@ class CodeMaker
 
       loop do
         new_val = rand(1..6).to_s
-        unless previous_values.include?(new_val)
-          guess[i] = new_val and @previous_values.push(new_val)
+        unless previous_values.include?([ges, new_val])
+          guess[i] = new_val and @previous_values.push([ges, new_val])
+          # print "Previously past guesses [value, new guess]: #{previous_values}\n New [guess, value] pair: #{[ges, new_val]}\n"
           break
         end
       end
