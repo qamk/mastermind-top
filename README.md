@@ -12,10 +12,10 @@ Create a Mastermind game that:
 - [x] Provides feedback after each guess
 - [x] Allows the player to guess the computer's code
 - [x] Allows the computer to guess the player's code
-- [] \(Optional) Provides instructions
+- [x] \(Optional) Provides instructions
 - [x] \(Optional) Computer employs a guessing strategy
-- [] \(Optional) Allow mode without duplicates
-- [] \(Optional) Add a board
+- [] \(Optional) Allows for a mode without duplicates
+- [] \(Optional) Uses a board
 
 ## Useful resources
 There are a number of things I learnt about from searching "how to do x". Other than the documentation, there were some other places I looked to do things like:
