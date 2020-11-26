@@ -15,8 +15,8 @@ module Pegs
 
   def key_peg(key)
     key_hash = {
-      'v' => "\u26AB",
-      'p' => "\e[38;5;208m\u26AB\e[0m",
+      'v' => "\e[97m\u25CF\e[0m ",
+      'p' => "\e[38;5;208m\u25CF\e[0m ",
       'x' => "\e[31mx \e[0m"
     }[key]
   end

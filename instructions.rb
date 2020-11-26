@@ -16,7 +16,7 @@ module Instructions
     Since order matters, a digit can either be a) correct in position and value or b) correct in value or c) not in the code
     In the case of b, it means that, yay, you have the right digit but in the wrong place.
     In the board game, these are denoted by smaller pins. Likewise here these are represented by coloured circles (like pegs, right?)
-    a) => \e[38;5;208m\u26AB\e[0m b) => \u26AB c) => \e[31mx \e[0m
+    a) => \e[38;5;208m\u25CF\e[0m b) => \e[97m\u25CF\e[0m c) => \e[31mx \e[0m
     Duplicates are currently allowed, e.g. the code 1134 is valid.
     That's pretty much it. The wiki link is included in the README.md title.
     HEREDOC
