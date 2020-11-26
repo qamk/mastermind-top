@@ -40,7 +40,7 @@ class CodeMaker
 
     puts 'Getting the correct values... bear with me.'
     values_loop
-    puts 'OK. Deducing your code...'
+    puts 'OK. Unscrambling to deduce your code...'
     positions_loop
     guess == player_code ? computer_win_msg(true) : player_win_msg(true)
     outro
@@ -56,11 +56,11 @@ class CodeMaker
 
   def values_loop
     loop do
+      @turn += 1
+      current_round(turn)
       guess_accuracy = process_guess(best_guess, key_pegs, guess, player_code)
       break if guess_accuracy =~ /\D{4}/ || turn > 11 || guess == player_code
 
-      @turn += 1
-      current_round(turn)
       until_values(guess_accuracy)
       display
     end
