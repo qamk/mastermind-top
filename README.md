@@ -14,7 +14,7 @@ Create a Mastermind game that:
 - [x] Allows the computer to guess the player's code
 - [x] \(Optional) Provides instructions
 - [x] \(Optional) Computer employs a guessing strategy
-- [] \(Optional) Allows for a mode without duplicates
+- ~~[] \(Optional) Allows for a mode without duplicates~~
 - [] \(Optional) Uses a board
 
 ## Useful resources
@@ -28,3 +28,5 @@ There are a number of things I learnt about from searching "how to do x". Other 
   - [Alternative site which is nice to look at](https://www.toptal.com/designers/htmlarrows/)
 - [Formatting Github markdown files \(e.g. this README.md)](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github)
   - Just something worth practising for presentation purposes.
+
+Note that in code_maker.rb, you can remove the \# on line 90 to gain insight into the computer's decision making!
